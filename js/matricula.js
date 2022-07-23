@@ -10,8 +10,8 @@ var totalCursos = 0
 function adicionaCurso(checkbox) {
 
   if (checkbox.checked) {
-    totalCursos
-    totalHoras = parseInt(checkbox.value)
+    totalCursos++
+    totalHoras += parseInt(checkbox.value)
   }
   else {
     totalCursos--
